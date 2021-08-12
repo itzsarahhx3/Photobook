@@ -36,7 +36,7 @@ export const auth = {
                 return Promise.reject(error);
             }
         },
-        // not doing any action, so _
+        // not committing any action, so _
         async confirmSignUp(_, { username, code }) {
             try {
                 await Auth.confirmSignUp(username, code);
