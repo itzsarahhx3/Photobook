@@ -1,0 +1,56 @@
+{
+    "identityPoolName": "photobookd26aff69_identitypool_d26aff69",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "photobd26aff69",
+    "userPoolName": "photobookd26aff69_userpool_d26aff69",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "aliasAttributes": [
+        "preferred_username"
+    ],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "userpoolClientLambdaRole": "photobd26aff69_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "d26aff69",
+    "resourceName": "photobookd26aff69",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "dependsOn": []
+}
