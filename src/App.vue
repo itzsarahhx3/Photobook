@@ -10,10 +10,18 @@
 </template>
 <script>
 import Nav from "@/components/Nav.vue";
+import { mapActions } from "vuex";
 
 export default {
+    // lifecycle hook of Vue.js
+    mounted() {
+        this.authAction();
+    },
     components: {
         Nav
+    },
+    methods: {
+        ...mapActions("auth", ["authAction"])
     }
 };
 </script>
