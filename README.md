@@ -1,24 +1,6 @@
 # Full Stack Photobook App | Vue, GraphQL, AWS Amplify
 
-## Project setup
-```
-npm install
-```
+## <a href="https://youtu.be/UTkim0GM57k"> Demo Video on YouTube </a>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## <a href="https://master.d372izwpopfahw.amplifyapp.com/"> Deployed on AWS Amplify</a>
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
