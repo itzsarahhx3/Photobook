@@ -1,4 +1,4 @@
-# photobook
+# Full Stack Photobook App | Vue, GraphQL, AWS Amplify
 
 ## Project setup
 ```
