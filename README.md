@@ -1,6 +1,6 @@
 # Welcome to Photobook! | Vue, GraphQL, AWS Amplify
 
-<img src="/src/assets/album.png" width="500">
+<img src="/src/assets/album.png" width="800">
 
 ## <a href="https://youtu.be/UTkim0GM57k"> Demo Video on YouTube </a>
 
