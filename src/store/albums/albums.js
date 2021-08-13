@@ -63,7 +63,6 @@ export const albumInfo = {
                     bucket
                 }
             };
-
             //s3 bucket storage add file to it
             try {
                 await Storage.put(key, file, {

@@ -23,6 +23,7 @@
       }
     }
   },
+  
   "storage": {
     "photoAlbum": {
       "service": "S3",

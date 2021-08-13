@@ -29,6 +29,7 @@ export const getAlbum = /* GraphQL */ `
         }
     }
 `;
+
 export const listAlbums = /* GraphQL */ `
     query ListAlbums(
         $filter: ModelAlbumFilterInput
@@ -84,6 +85,7 @@ export const listAlbums = /* GraphQL */ `
         }
     }
 `;
+
 export const getPhoto = /* GraphQL */ `
     query GetPhoto($id: ID!) {
         getPhoto(id: $id) {

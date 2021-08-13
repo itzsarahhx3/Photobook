@@ -60,6 +60,7 @@
                         <li>longitude At {{ photo.gps.longitude }}</li>
                     </ul>
                 </div>
+                
             </div>
         </div>
     </div>

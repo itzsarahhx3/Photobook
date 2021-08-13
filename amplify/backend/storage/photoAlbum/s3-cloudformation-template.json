@@ -96,6 +96,7 @@
             "Default": "functionPhotoProcessorLambdaExecutionRole"
         }
     },
+    
     "Conditions": {
         "ShouldNotCreateEnvResources": {
             "Fn::Equals": [

@@ -78,6 +78,7 @@
             }
           }
         },
+        
         "Role": {
           "Fn::GetAtt": [
             "LambdaExecutionRole",
