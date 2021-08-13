@@ -1,4 +1,6 @@
-# Full Stack Photobook App | Vue, GraphQL, AWS Amplify
+# Welcome to Photobook! | Vue, GraphQL, AWS Amplify
+
+<img src="/src/assets/album.png" width="300">
 
 ## <a href="https://youtu.be/UTkim0GM57k"> Demo Video on YouTube </a>
 
